@@ -3,10 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './card.css';
 import img from '../assets/anime.jpg';
 import img2 from '../assets/anime2.jpeg';
+
 const CardComponent = () => {
   return (
     <div className="main-container">
-
       <div className="thecard">
 
         <div className="card">
@@ -26,7 +26,6 @@ const CardComponent = () => {
             <a href="#" className="btn btn-primary">Click here</a>
           </div>
         </div>
-
       </div>
 
       <div className="social-buttons">
